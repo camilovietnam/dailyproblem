@@ -6,12 +6,11 @@
 *
 * For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
 *
-* The solution for this problem was inspired by https://www.youtube.com/watch?v=KU7Ae2513h0
+* The code implements this solution https://www.youtube.com/watch?v=KU7Ae2513h0
 * "The IP Address Decomposition Problem - Compute All Valid IP Addresses From Raw IP String"
 * by youtube user "Back To Back SWE"
 *
 */
-
 
 function split (
     ipAddresses: string[],
