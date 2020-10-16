@@ -14,7 +14,8 @@ const log = console.log;
 
 class Prisoners {
   constructor (n, k) {
-    this.prisoners = [...Array(n).keys()];
+
+    this.prisoners = Array.from(Array(n+1).keys()).splice(1)
     this.step = k;
   }
 
@@ -25,7 +26,7 @@ class Prisoners {
   }
 
   next(prisoner, step = 1) {
-      return (prisoner + step) % this.prisoners.length; // -1 because the array is reduced in 1 after killing
+      return (prisoner + step) % this.prisoners.length;
   }
 
   display() {
@@ -33,14 +34,24 @@ class Prisoners {
   }
 }
 
-const p = new Prisoners(5, 2);
-p.display()
+/* Execution starts here */
+const args = process.argv.slice(2);
+if (args.length < 2) {
+  log('??? Please provide arguments N, k. \nExample: node index.js 5 2');
+  return;
+}
+const n = parseInt(args[0]);
+const k = parseInt(args[1]);
+
+const p = new Prisoners(n, k);
+log(`Total prisoners: ${p.prisoners.length}. Step: ${p.step}`);
 
 let killIndex = 0;
 const killed = [];
 
 while (p.prisoners.length > 1) {
-  killIndex = p.next(killIndex-1, p.step)
+  const nextToKill = p.next(killIndex - 1, p.step)
+  killIndex = nextToKill
   killed.push(p.kill(killIndex))
 }
 
