@@ -26,5 +26,6 @@ def flippity (string):
     print(f"Required {flips} flips")
     return string
 
+
 result = flippity('xxyxyx')
 print(f"The returned string is {''.join(result)}")
