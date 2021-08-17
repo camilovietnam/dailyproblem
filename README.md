@@ -13,4 +13,4 @@ It is extremely important to practice every day, even small exercises that take 
 - Go 
 
 ----
-This repository was created on: July 10, 2020.
+This repository was created on: July 10, 2020. Just because I don't add a new solution everyday does it mean you should also be lazy. What are you doing reading this? Go program something!
