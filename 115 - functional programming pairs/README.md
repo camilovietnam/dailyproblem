@@ -19,7 +19,7 @@ Implement car and cdr
 
 ## Solution:
 
-I didn't understand the functional programming part of this problem, so I have basically copied the solution from [this address](https://galaiko.rocks/posts/dcp/problem-5/)
+I didn't understand the functional programming part of this problem, so I have basically copied the solution from [this address](https://galaiko.rocks/posts/dcp/problem-5/). Here is [a captured version of the page](https://web.archive.org/web/2/https://galaiko.rocks/posts/dcp/problem-5/), in case the original page has disappeared.
 
 Functional programming for me is a little "backwards". Instead of thinking about returning variables and operating on variables, you have to return and operate on functions which in turn operate on something. This layered thinking can sometimes really throw me off. Perhaps it is a good sign that I need to study a little bit more about Functional Programming.
 
