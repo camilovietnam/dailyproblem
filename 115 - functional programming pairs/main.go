@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main () {
-	fmt.Println("Ran correctly")
+	fmt.Println("Run `go test -v` to check the code.")
 }
 
 type pairOperation func (int, int) int
