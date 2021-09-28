@@ -12,3 +12,6 @@ This is my first daily problem solved with Svelte. I think I will try to introdu
 ## How to run:
 - Install dependencies with `npm install`
 - Run the web server with `npm run dev`. The app can be visited at [http://localhost:5000](http://localhost:5000)
+
+## Screenshot
+![Page Screenshot](https://raw.githubusercontent.com/camilovietnam/dailyproblem/master/116%20-%20Svelte%20Sorted%20Squares/screenshot.png)
