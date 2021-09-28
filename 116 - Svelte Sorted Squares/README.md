@@ -11,5 +11,4 @@ This is my first daily problem solved with Svelte. I think I will try to introdu
 
 ## How to run:
 - Install dependencies with `npm install`
-- Enable TypeScript with `node scripts/setupTypeScript.js`
 - Run the web server with `npm run dev`. The app can be visited at [http://localhost:5000](http://localhost:5000)
